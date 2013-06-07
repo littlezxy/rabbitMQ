@@ -12,10 +12,8 @@ Start consumer to receive the message:
 
 List queues in RabbitMQ server:
 #rabbitmqctl list_queues
-<<<<<<< HEAD
 
 
 List unack messages:
 #rabbitmqctl list_queues name messages_ready messages_unacknowledged
-=======
->>>>>>> f59134a03943bc04e31bf729f1279f94bdaaacd6
+
