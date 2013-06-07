@@ -1,0 +1,14 @@
+Start RabbitMQ server:
+#rabbitmq-server
+
+
+Send a message:
+#python send.py
+
+
+Start consumer to receive the message:
+#python receive.py
+
+
+List queues in RabbitMQ server:
+#rabbitmqctl list_queues
